@@ -10,7 +10,7 @@ load_dotenv()
 
 logger.add(
         'logs/log.log',
-        format='{time:yyyy-MM-dd HHH:mm:ss} {level} {message}',
+        # format='{time:yyyy-MM-dd HHH:mm:ss} {level} {message}',
         level='DEBUG',
         rotation='50 MB'
 )

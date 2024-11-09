@@ -21,3 +21,4 @@ async def welcome_new_member(message: Message):
             reply_markup=(await welcome_keyboard())
         )
 
+    await message.delete()
